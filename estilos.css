@@ -1,0 +1,147 @@
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+.sesion1{
+    display: grid;
+    grid-template-columns: 200px auto;
+    position: fixed;
+    height: 200px;
+}
+.sesion1nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: #CD1818;
+}
+.nave{
+    background-color: #F8E8EE;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.nave:hover{
+    background-color:green;
+  }
+
+  div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto ;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  ul.b {
+    list-style-type: square;
+  }
+  
+
+.sesion2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.sesion2col2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.sesion3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.titulo{
+    text-align: center;
+    background-color: beige ;
+    height: 100px;
+    padding-top: 50px;
+}
+.sesion3col2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+@media screen and (max-width: 600px) {
+    .sesion1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+        .sesion2{
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .sesion3{
+            display: grid;
+            grid-template-columns: auto ;
+        }
+  }
+  .prueba{
+    display:grid ;
+    grid-template-columns: auto auto auto;
+  }
+  .sesion3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+  }
+  .sesion4{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
